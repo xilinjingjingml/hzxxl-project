@@ -1,0 +1,12 @@
+{
+    "fix_plugins" : {
+        "path" : "cocos2d-x",
+        "name" : "plugin",
+        "desc" : "整合插件"
+    },
+	"fix_wechatgame_safeArea" : {
+        "path" : "builtin",
+        "name" : "safeArea",
+        "desc" : "微信小游戏在部分android机上适配问题"
+    }
+}

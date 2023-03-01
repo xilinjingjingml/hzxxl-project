@@ -1,0 +1,204 @@
+syntax = "proto3";
+
+package gsm;
+option go_package = "./proto;gsm";
+
+// 提供给client使用
+service Rooms {
+  // 开始匹配
+  rpc StartMatching(StartMatchingReq) returns (StartMatchingRsp) {}
+  // 取消匹配
+  rpc CancelMatching(CancelMatchingReq) returns (CancelMatchingRsp) {}
+  // 创建房间
+  rpc CreateRoom(CreateRoomReq) returns (CreateRoomRsp) {}
+  // 解散房间
+  rpc DismissRoom(DismissRoomReq) returns (DismissRoomRsp) {}
+  // 获取房间列表
+  rpc GetRoomList(GetRoomListReq) returns (GetRoomListRsp) {}
+  //  获取当前进行中的房间
+  rpc GetMyRoom(GetMyRoomReq) returns (GetMyRoomRsp) {}
+  //获取房间信息
+  rpc GetRoomInfo(GetRoomInfoReq) returns (GetRoomInfoRsp) {}
+  // 检查房间是否存在
+  rpc CheckRoomExists(CheckRoomExistsReq) returns (CheckRoomExistsRsp) {}
+}
+
+// 提供给 game server 调用
+service GsmSdk {
+  // 房间解散
+  rpc TerminateGameRoom(DismissRoomNot) returns (Empty) {}
+  // 玩家加入
+  rpc AcceptPlayer(AcceptPlayerNot) returns (Empty) {}
+  // 玩家移除
+  rpc RemovePlayer(RemovePlayerNot) returns (Empty) {}
+  // 检查是否为合法玩家
+  rpc CheckCanJoin(CheckCanJoinReq) returns (CheckCanJoinRsp) {}
+}
+
+message Empty{}
+
+// 创建房间请求
+message CreateRoomReq {
+  string game_id = 1; // 游戏ID
+  string properties = 2; // 房间参数，内容自定义
+  string room_id = 3; // 房间ID
+}
+
+// 房间内玩家基础信息
+message PlayerInfo {
+  enum Status {
+    DEFAULT = 0; // 保留 (待加入)
+    JOINED = 1; // 已加入
+    LEAVED = 2; // 已离开
+  }
+  string openid = 1; // 玩家ID
+  Status status = 2; // 玩家状态
+  int64 join_time = 3; // 玩家加入时间
+  int64 leave_time = 4; // 玩家离开时间
+}
+
+// 房间信息
+message RoomInfo {
+  enum CreateReason{
+    CreateReasonDefault = 0; // 保留
+    CreateReasonPlayer = 1; // 玩家自主创建
+    CreateReasonMatch = 2; // 匹配时创建
+  }
+  string room_id = 1; // 房间ID
+  string server_id = 2; // 房间所在服务器信息
+  string game_gid = 3; // 游戏ID
+  string match_code = 4; // 房间匹配码
+  int32 max_player_num = 5; // 房间内参与人数上限
+  string owner = 6; // 房间创建者
+  string properties = 7; // 房间属性
+  map<string, PlayerInfo> players = 8; // 玩家列表
+  CreateReason create_reason = 9; // 房间创建方式
+  int64 create_time = 10;  // 房间创建时间
+}
+
+// 创建房间请求回复
+message CreateRoomRsp {
+  string err = 1; // 请求错误提示
+  RoomInfo room = 2; // 创建成功的房间信息
+}
+
+// 解散房间请求
+message DismissRoomReq{
+  string game_gid = 1;
+  string room_id = 2;
+  string openid = 3;
+  string server_id = 4;
+}
+
+// 解散房间回复
+message DismissRoomRsp{
+  string err = 1;
+}
+
+///////////////////////////////////////////////
+
+// 玩家加入通知消息
+message AcceptPlayerNot {
+  string room_id = 1; // 房间ID
+  string openid = 2; // 加入的玩家ID
+  string game_gid = 3; // 游戏ID
+}
+
+// 玩家离开通知消息
+message RemovePlayerNot {
+  string room_id = 1; // 房间ID
+  string openid = 2; // 离开的玩家ID
+  string game_gid = 3; // 游戏ID
+}
+
+// 参与匹配的玩家信息
+message MatchPlayerInfo {
+  string openid = 1; // 玩家ID
+  map<string, string> tags = 2; // 玩家标签
+}
+
+// 匹配请求
+message StartMatchingReq {
+  string match_code = 1; // 匹配code
+  string match_ticket = 2; // 匹配ticket
+  repeated MatchPlayerInfo players = 3; // 参与匹配玩家列表
+}
+
+// 匹配回复
+message StartMatchingRsp {
+  string err = 1; // 错误描述 说明:无错误时为空
+  string match_ticket = 2; // 匹配请求标识（用于标识当次匹配请求）
+}
+
+// 取消匹配请求
+message CancelMatchingReq {
+  string match_code = 1; // 匹配code
+  string match_ticket = 2; // 需要取消的匹配请求标识
+}
+
+// 取消匹配回复
+message CancelMatchingRsp {
+  string err = 1; // 错误描述
+}
+
+// 房间解散通知
+message DismissRoomNot {
+  string game_gid = 1; // 游戏ID
+  string room_id = 2;  // 房间ID
+}
+
+message CheckRoomExistsReq {
+  string room_id = 1; // 房间ID
+  string server_id = 2;
+  string game_gid = 3;
+}
+message CheckRoomExistsRsp {
+  bool exists = 1;
+}
+
+// 获取指定房间信息请求
+message GetRoomInfoReq {
+  string room_id = 1; // 房间ID
+  string server_id = 2;
+}
+
+// 请求的房间信息回复
+message GetRoomInfoRsp {
+  string err = 1; // 错误标识
+  RoomInfo room = 2; // 房间信息
+}
+
+// 请求玩家当前所在房间信息
+message GetMyRoomReq {
+
+}
+
+// 回复玩家当前所在房间信息
+message GetMyRoomRsp {
+  string err = 1; // 错误描述
+  RoomInfo room = 2; // 所在房间信息
+}
+
+// 请求房间列表
+message GetRoomListReq {
+  string game_gid = 1; // 游戏ID
+  map<string, string> conditions = 2; // 房间标签
+}
+
+// 回复房间列表请求
+message GetRoomListRsp {
+  string err = 1; // 错误描述
+  repeated RoomInfo room_list = 2; // 房间列表
+}
+
+// 检查房间是否允许加入
+message CheckCanJoinReq {
+  string game_id = 1; // 游戏ID
+  string room_id = 2; // 房间ID
+  string openid = 3; // 玩家ID
+}
+
+// 检查房间是否允许加入回复
+message CheckCanJoinRsp {
+  string err = 1; // 错误描述，当玩家允许加入时返回空，否则返回原因
+}

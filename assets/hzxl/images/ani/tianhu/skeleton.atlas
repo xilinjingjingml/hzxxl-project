@@ -1,0 +1,158 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tex_2693
+  rotate: false
+  xy: 703, 272
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+piaoyan1
+  rotate: false
+  xy: 2, 2
+  size: 555, 49
+  orig: 555, 49
+  offset: 0, 0
+  index: -1
+piaoyan2
+  rotate: true
+  xy: 925, 454
+  size: 565, 73
+  orig: 565, 73
+  offset: 0, 0
+  index: -1
+piaoyan4
+  rotate: true
+  xy: 925, 50
+  size: 402, 55
+  orig: 402, 55
+  offset: 0, 0
+  index: -1
+sye.png2
+  rotate: true
+  xy: 1000, 979
+  size: 40, 21
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+sye.png4
+  rotate: true
+  xy: 703, 232
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+ty
+  rotate: false
+  xy: 703, 43
+  size: 188, 187
+  orig: 188, 187
+  offset: 0, 0
+  index: -1
+yun
+  rotate: true
+  xy: 833, 232
+  size: 787, 90
+  orig: 787, 90
+  offset: 0, 0
+  index: -1
+yyun
+  rotate: false
+  xy: 2, 402
+  size: 829, 617
+  orig: 829, 617
+  offset: 0, 0
+  index: -1
+zsho
+  rotate: true
+  xy: 2, 53
+  size: 347, 699
+  orig: 347, 699
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tex_2691
+  rotate: false
+  xy: 2, 440
+  size: 512, 576
+  orig: 512, 576
+  offset: 0, 0
+  index: -1
+qshan
+  rotate: true
+  xy: 516, 693
+  size: 323, 453
+  orig: 323, 453
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 585, 2
+  size: 338, 286
+  orig: 338, 286
+  offset: 0, 0
+  index: -1
+sye
+  rotate: true
+  xy: 516, 465
+  size: 110, 61
+  orig: 110, 61
+  offset: 0, 0
+  index: -1
+yw
+  rotate: false
+  xy: 2, 48
+  size: 581, 390
+  orig: 581, 390
+  offset: 0, 0
+  index: -1
+zim
+  rotate: false
+  xy: 585, 290
+  size: 419, 285
+  orig: 419, 285
+  offset: 0, 0
+  index: -1
+zzb
+  rotate: false
+  xy: 516, 577
+  size: 467, 114
+  orig: 467, 114
+  offset: 0, 0
+  index: -1
+
+skeleton3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+piaoyan3
+  rotate: false
+  xy: 352, 248
+  size: 562, 53
+  orig: 562, 53
+  offset: 0, 0
+  index: -1
+ycb
+  rotate: false
+  xy: 352, 13
+  size: 212, 233
+  orig: 212, 233
+  offset: 0, 0
+  index: -1
+ys
+  rotate: false
+  xy: 2, 2
+  size: 348, 299
+  orig: 348, 299
+  offset: 0, 0
+  index: -1

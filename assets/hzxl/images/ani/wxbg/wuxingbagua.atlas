@@ -1,0 +1,75 @@
+
+wuxingbagua.png
+size: 1002,997
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bagua1
+  rotate: false
+  xy: 81, 2
+  size: 354, 355
+  orig: 354, 355
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 635
+  size: 780, 360
+  orig: 780, 360
+  offset: 0, 0
+  index: -1
+guang22
+  rotate: false
+  xy: 2, 359
+  size: 780, 274
+  orig: 780, 274
+  offset: 0, 0
+  index: -1
+guangdian
+  rotate: false
+  xy: 986, 982
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+taiji
+  rotate: true
+  xy: 437, 19
+  size: 338, 339
+  orig: 338, 339
+  offset: 0, 0
+  index: -1
+wxbg_zi
+  rotate: true
+  xy: 784, 180
+  size: 815, 200
+  orig: 815, 200
+  offset: 0, 0
+  index: -1
+xingguang
+  rotate: false
+  xy: 2, 100
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+
+wuxingbagua2.png
+size: 681,395
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgua
+  rotate: false
+  xy: 2, 2
+  size: 391, 391
+  orig: 391, 391
+  offset: 0, 0
+  index: -1
+jm
+  rotate: true
+  xy: 395, 93
+  size: 300, 284
+  orig: 300, 284
+  offset: 0, 0
+  index: -1

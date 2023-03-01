@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "2490a02d-d661-4764-9529-f0b6d1c990b3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 69,
+  "height": 75,
+  "platformSettings": {},
+  "subMetas": {
+    "fukaIcon": {
+      "ver": "1.0.4",
+      "uuid": "b8abf7e1-9838-45c2-b75c-ec8cd1cbe4bb",
+      "rawTextureUuid": "2490a02d-d661-4764-9529-f0b6d1c990b3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 69,
+      "height": 75,
+      "rawWidth": 69,
+      "rawHeight": 75,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

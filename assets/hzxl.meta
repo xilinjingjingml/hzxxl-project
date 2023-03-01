@@ -1,0 +1,24 @@
+{
+  "ver": "1.1.2",
+  "uuid": "d320b4fd-5e62-448c-93d7-d67a32799d00",
+  "isBundle": true,
+  "bundleName": "hzxl",
+  "priority": "1",
+  "compressionType": {
+    "wechatgame": "default",
+    "web-mobile": "default"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false,
+    "web-mobile": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false,
+    "web-mobile": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": true,
+    "web-mobile": false
+  },
+  "subMetas": {}
+}

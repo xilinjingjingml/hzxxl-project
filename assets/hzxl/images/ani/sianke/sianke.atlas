@@ -1,0 +1,173 @@
+
+sianke.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 2, 600
+  size: 768, 422
+  orig: 768, 422
+  offset: 0, 0
+  index: -1
+guangquan
+  rotate: false
+  xy: 2, 121
+  size: 516, 477
+  orig: 516, 477
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 882, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+luzi
+  rotate: false
+  xy: 520, 32
+  size: 238, 224
+  orig: 238, 224
+  offset: 0, 0
+  index: -1
+shaoxiang
+  rotate: false
+  xy: 760, 2
+  size: 120, 30
+  orig: 120, 30
+  offset: 0, 0
+  index: -1
+shutiao
+  rotate: false
+  xy: 772, 622
+  size: 150, 400
+  orig: 150, 400
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 760, 96
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 520, 258
+  size: 340, 325
+  orig: 340, 325
+  offset: 0, 0
+  index: -1
+yanwu0001
+  rotate: false
+  xy: 924, 842
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0002
+  rotate: true
+  xy: 321, 59
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0003
+  rotate: false
+  xy: 924, 660
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0004
+  rotate: true
+  xy: 760, 34
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0005
+  rotate: false
+  xy: 847, 440
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0006
+  rotate: false
+  xy: 847, 258
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0007
+  rotate: false
+  xy: 909, 440
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0008
+  rotate: false
+  xy: 909, 258
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0009
+  rotate: false
+  xy: 942, 76
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 2, 3
+  size: 317, 116
+  orig: 317, 116
+  offset: 0, 0
+  index: -1
+
+sianke2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoz
+  rotate: false
+  xy: 2, 164
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+xxx
+  rotate: false
+  xy: 2, 2
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+yanwu0010
+  rotate: false
+  xy: 260, 240
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0011
+  rotate: false
+  xy: 322, 240
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1
+yanwu0012
+  rotate: false
+  xy: 384, 240
+  size: 60, 180
+  orig: 60, 180
+  offset: 0, 0
+  index: -1

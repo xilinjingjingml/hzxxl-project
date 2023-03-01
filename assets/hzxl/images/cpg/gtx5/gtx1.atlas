@@ -1,0 +1,83 @@
+
+gtx1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 318
+  size: 344, 344
+  orig: 344, 344
+  offset: 0, 0
+  index: -1
+1g
+  rotate: false
+  xy: 352, 670
+  size: 342, 342
+  orig: 342, 342
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 664
+  size: 348, 348
+  orig: 348, 348
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 696, 494
+  size: 62, 518
+  orig: 62, 518
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 2, 36
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+x1
+  rotate: false
+  xy: 2, 2
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 284, 215
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 760, 664
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 840, 974
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 760, 704
+  size: 78, 308
+  orig: 78, 308
+  offset: 0, 0
+  index: -1
+y2
+  rotate: true
+  xy: 284, 253
+  size: 63, 46
+  orig: 63, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+peng2-1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 82
+  size: 350, 167
+  orig: 350, 167
+  offset: 0, 0
+  index: -1
+1g
+  rotate: false
+  xy: 354, 57
+  size: 263, 192
+  orig: 263, 192
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 619, 83
+  size: 192, 166
+  orig: 192, 166
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 813, 110
+  size: 200, 139
+  orig: 200, 139
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 42, 44
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 2, 42
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 2, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

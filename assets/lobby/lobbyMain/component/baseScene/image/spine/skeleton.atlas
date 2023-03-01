@@ -1,0 +1,41 @@
+
+skeleton.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangqiu
+  rotate: false
+  xy: 885, 140
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+hz0002
+  rotate: false
+  xy: 290, 13
+  size: 199, 228
+  orig: 199, 228
+  offset: 0, 0
+  index: -1
+shaoguang
+  rotate: true
+  xy: 491, 111
+  size: 130, 240
+  orig: 130, 240
+  offset: 0, 0
+  index: -1
+xing
+  rotate: false
+  xy: 733, 91
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+红中血流02
+  rotate: true
+  xy: 2, 2
+  size: 239, 286
+  orig: 239, 286
+  offset: 0, 0
+  index: -1

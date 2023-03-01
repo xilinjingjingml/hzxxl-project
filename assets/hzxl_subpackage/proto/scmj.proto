@@ -1,0 +1,460 @@
+syntax = "proto3";
+
+package scmj;
+option go_package = "gitee.com/microbeam/hzxl-server/proto;proto_hzxl";
+
+service Scmj {
+  rpc Operate(OperateRsp) returns (ScmjEmpty){}
+  rpc Exchange(ExchangeRsp) returns (ScmjEmpty){}
+  rpc Lack(LackRsp) returns (ScmjEmpty){}
+  rpc Bill(BillReq) returns (ScmjEmpty){}
+  rpc Complete(CompleteReq) returns (ScmjEmpty){}
+  rpc Auto(AutoReq) returns (ScmjEmpty){}
+  rpc TingTip(TingTipReq) returns (ScmjEmpty){}
+  rpc Ai(AiReq) returns (ScmjEmpty){}
+  rpc Chat(ChatReq) returns (ScmjEmpty){}
+  rpc Recharge(RechargeRsp) returns (ScmjEmpty){}
+  rpc CapMultiple(CapMultipleRsp) returns (ScmjEmpty){}
+  rpc PrivateRoomResult(PrivateRoomResultReq) returns (ScmjEmpty){}
+}
+
+message ScmjEmpty {}
+
+// 时钟消息
+message ClientTimerNoti {
+  int32 chair_id = 1;
+  int32 second = 2;
+  int32 remain_card_num = 3;
+}
+// 当前出牌标记
+message MjPlayMarkNoti {
+  // -1 无标记
+  int32 chair_id = 1;
+  bool hide = 2;
+}
+// 用户数据 
+message UserItem {
+  string uid = 1;
+  // 昵称
+  string nickname = 2;
+  // 计算分的货币数量
+  int64 score = 3;
+  bool giveup = 4;
+}
+// 入桌通知item
+message EnterNotiItem {
+  int32 chair_id = 1;
+  // 1:已准备 2:未准备
+  int32 ready = 2;
+  // 用户数据
+  UserItem data = 3;
+}
+message EnterAck {
+  int32 ret = 1;
+  repeated EnterNotiItem items = 2;
+}
+// 入桌通知
+message EnterNoti {
+  EnterNotiItem item = 1;
+}
+
+// 游戏开始通知
+message BeginGameNoti {
+
+}
+// 桌费通知
+message TaxNoti {
+  int64 tax = 1;
+}
+// 投骰子，置庄通知
+message SetBankerNoti {
+  int32 chair_id = 1;
+  repeated int32 dices = 2;
+  int32 set_east = 3;
+}
+// 刷新牌面通知
+message UpdateCardsNoti {
+  int32 chair_id = 1;
+  // 手牌
+  repeated int32 handcards = 2;
+  // 左手牌
+  repeated int32 leftcards = 3;
+  // 打出去的牌
+  repeated int32 dispcards = 4;
+  // 胡的牌
+  repeated int32 hucards = 5;
+  // 当前摸到的牌
+  int32 card = 6;
+  // 玩家优先从这个里面摸牌
+  repeated int32 wall_tiles = 7;
+  // 玩家优先从这个里出牌
+  repeated int32 play_cards = 8;
+}
+// 服务器发送给客户端的换3张请求
+message ExchangeReq {
+  repeated int32 cards = 1;
+  int32 type = 2; // 1：同花色，2：任意色
+}
+// 客户端发送给服务端的换3张响应
+message ExchangeRsp {
+  repeated int32 cards = 1;
+}
+// 换3张状态通知
+message ExchangeNoti {
+  int32 chair_id = 1;
+  // 1:已确认 2:未确认
+  int32 status = 2;
+  // 换回来的牌
+  repeated int32 cards = 3;
+}
+// 换3张确认通知
+message ExchangeConfirmNoti {
+  int32 chair_id = 1;
+  // 1:已确认 2:未确认
+  int32 status = 2;
+}
+// 换3张完成通知
+message ExchangeCompleteNoti {
+  // 0:对家互换 1:顺时针互换 2:逆时针互换
+  int32 way = 1;
+}
+// 服务器发送给客户端的定缺请求
+message LackReq {
+  // 0:万 2:筒 1:条 推荐提示
+  int32 lack = 1;
+}
+// 客户端发送给服务端的定缺响应
+message LackRsp {
+  // 0:万 2:筒 1:条
+  int32 lack = 1;
+}
+// 定缺通知
+message LackNoti {
+  int32 chair_id = 1;
+  // 0:万 2:筒 1:条
+  int32 lack = 2;
+}
+// 服务器发送给客户端的操作请求
+message OperateReq {
+  message Operate{
+    int32 opcode = 1;
+    int32 op_card = 2;
+    repeated int32 cards = 3;       // 操作关联的牌
+  }
+  repeated int32 opcodes = 1;   //operates代替功能，新版本不用
+  // 对应的操作牌
+  int32 card = 2;
+  // 操作序列号
+  int32	serial_id	=	3;
+  // 听牌
+  repeated TingCards ting_cards = 4;
+  repeated TingCard ting_card = 5;
+  repeated Operate operates = 6;
+}
+// 客户端发送给服务端的操作响应
+message OperateRsp {
+  int32 opcode = 1;
+  // 对应的操作牌
+  int32 card = 2;
+  // 操作相关的牌 比如吃哪几张
+  repeated int32 op_cards = 3;
+  // 操作序列号
+  int32	serial_id	=	4;
+}
+// 服务器发送给客户端的操作通知
+message OperateNoti {
+  int32 chair_id = 1;
+  int32 opcode = 2;
+  // 对应的操作牌
+  int32 card = 3;
+  int32 fan_id=4;
+   // 胡牌状态
+   HuStatus huStatus = 5;
+}
+// 托管请求
+message AutoReq {
+  // 1:托管 2:取消托管
+  int32 auto = 1;
+} 
+// 托管通知
+message AutoNoti {
+  int32 chair_id = 1;
+  // 1:托管 2:取消托管
+  int32 auto = 2;
+}
+// 分数变化条目
+message ScoreChangeItem {
+  int32 chair_id = 1;
+  // 当前变化，用于做动画
+  int64 present_score = 2;
+  // 总的变化，用于显示总的分数
+  int64 total_score = 3;
+  // 玩家实时游戏币
+  int64 score = 4;
+  // 输钱包赔
+  int32 shield_times=5;
+}
+// 分数变化通知
+message ScoreChangeNoti {
+  // 当前通知的道具变化
+  repeated ScoreChangeItem items = 1;
+  string changeType = 2;
+}
+// 对局流水请求
+message BillReq {
+  
+}
+// 对局流水清单条目
+message BillItem {
+  // 操作类型 点炮、自摸、被点炮、被自摸、刮风、下雨、被刮风、被下雨等
+  int32 op = 1;
+  // 番型 清一色、七对等
+  int32 fan = 2;
+  // 倍数
+  int32 ratio = 3;
+  // 分数
+  int64 score = 4;
+  // 操作对象方位 上家、下家、对家、三家
+  string position = 5;
+  // 类型 查花猪、查大叫、查听退税、呼叫转移
+  int32 type = 6;
+  // 牌型
+  repeated int32 cards = 7;
+  // 完整番型
+  repeated int32 fans = 8;
+  // 输钱包赔
+  int32 no_lost=9;
+  
+  int32 contractType = 10;
+  int32	contractChairId = 11;
+}
+// 对局流水响应
+message BillRsp {
+  int64 score = 1;
+  repeated BillItem items = 2;
+}
+
+// 玩家账单
+message PlayerBill{
+    string uid=1;
+    repeated BillItem items=2;
+}
+
+// 结算通知
+message ResultNoti {
+  int64 score = 1;
+  repeated BillItem items = 2;
+  repeated UserItem data = 3;
+  repeated PlayerBill player_bill=4;
+  bool status = 5; //是否流局
+}
+
+// 胡牌状态顺序
+message HuStatus{
+  string type = 1;
+  bool status = 2;
+}
+// 客户端发送给服务器的游戏完整数据请求
+message CompleteReq {
+  
+}
+// 游戏数据item
+message GameDataItem {
+  // 座位号
+  int32 chair_id = 1;
+  // 定缺
+  int32 lack = 2;
+  // 认输
+  bool giveup = 3;
+  // 托管
+  bool auto = 4;
+  // 分数变化
+  int64 add_score = 5;
+  // 麻将牌信息
+  UpdateCardsNoti cards = 6;
+  // 胡牌状态
+  HuStatus huStatus = 7;
+  // 智能辅助
+  repeated int32 ai = 8;
+  // 充值状态
+  int32 recharge = 9;
+  // 输钱包赔次数
+  int32 shield_times=10;
+  // 封顶倍数
+  int32 cap_multiple=11;
+}
+// 服务器发送给客户端的游戏完整数据通知
+message CompleteNoti {
+  // 游戏状态 0:游戏未开始 1:游戏已结束 2:游戏进行中
+  int32 state = 1;
+  // 东家位置
+  int32 east = 2;
+  // 庄家位置
+  int32 banker = 3;
+  // 剩余牌
+  int32 remain_card_num = 4;
+  // 基础数据
+  repeated EnterNotiItem base_items = 5;
+  // 游戏数据
+  repeated GameDataItem game_items = 6;
+  // 骰子
+  repeated int32 dices = 7;
+  // 鬼牌
+  repeated int32 laizi = 8;
+}
+message TingCard {
+  int32 card = 1;
+  int32 left = 2;
+  int32 ratio = 3;
+  int32 fan = 4;
+}
+
+message TingCards {
+  int32 play_card = 1;
+  repeated TingCard ting_cards = 2;
+}
+
+message TingTipReq {
+
+}
+
+message TingTipRsp {
+  repeated TingCard ting_cards = 1;
+}
+
+message TingNoti {
+  // 1:听牌 2:不听牌
+  int32 is_ting = 1;
+}
+
+// 客户端发送给服务端的换3张响应
+message AiReq {
+  repeated int32 ai = 1;
+}
+
+// 聊天发送
+message ChatReq{
+  string msg = 1;
+  int32 target_chair_id=2;
+}
+
+// 聊天通知
+message ChatNoti{
+  int32 chair_id = 1;
+  string msg = 2;
+  int32 target_chair_id=3;
+}
+
+// TODO: 对局免输
+
+// TODO: 海底捞月
+
+message RechargeItem {
+  int32 chair_id = 1;
+  int32 recharge = 2;
+  int32 shield_times = 3;
+}
+// 服务器发送给客户端的充值请求
+message RechargeReq {
+  repeated RechargeItem items = 1;
+}
+// 客户端发送给服务端的充值响应
+message RechargeRsp {
+  int32 recharge = 1;
+  int32 shield_times=2;
+}
+// 充值通知
+message RechargeNoti {  
+  repeated RechargeItem items = 1;
+}
+
+// 服务器发送给客户端的封顶倍数请求
+message CapMultipleReq {  
+}
+// 客户端发送给服务端的封顶倍数响应
+message CapMultipleRsp {
+  int32 cap_multiple=1;
+}
+// 封顶倍数通知
+message CapMultipleNoti {  
+  int32 chair_id = 1;
+  int32 cap_multiple=2;
+}
+
+message RountCountNoti{
+	int32	quan=1; // 圈
+	int32	ju=2; // 局
+	int32	count=3; // 计数
+};
+
+message PauseGameNoti{
+	int32 flag=1; //0：暂停 1：恢复
+	int32 wait_time=2; //分
+	int32 left_time=3; //秒
+	int32 chair_id=4;
+	string nick_name=5;
+};
+
+message GameStatisc{
+	int32 banker_num =1;
+	int32 hu_num =2;
+	int32 dian_pao_num =3;
+	int32 gang_num =4;
+	int32 cha_da_jiao_num =5;
+	int64 amount=6;
+  int32 lian_zhuang_num = 7;
+}
+
+message PrivateRoomResultReq{
+
+};
+
+message PrivateRoomResultRsp{
+	repeated GameStatisc game_statiscs=1;
+	string owner_name=2;
+};
+
+message PrivateRoomResultNoti{
+	repeated GameStatisc game_statiscs=1;
+	string owner_name=2;
+};
+
+message OwnerNoti{
+	string owner=1;
+};
+
+// 离线、返回通知
+message ConnectNoti {
+    int32 chair_id = 1;
+    string uid = 2;
+    int32 status = 3; // 1:离线 2:返回游戏
+  }
+
+  // 上局结束时间
+  message LastRoundNoti{
+	int32 end_time=1; //秒
+};
+
+message GuiPaiNoti {
+    int32 card = 1;
+    repeated int32 laizi = 2;
+};
+
+message CardDetail {
+    int32 card = 1;   // 马牌
+    int32 status = 2;   // 是否押中输家或者赢家  1：赢家  0 输家，  -1 都没中
+}
+
+message MaiMaItem {
+    // 座位号
+  int32 chair_id = 1;
+  int32 ma_num = 2;
+  repeated int32 cards = 3;
+  repeated int32 maCards = 4;   // 对应座位的马
+}
+
+message MaiMaRsp {
+    repeated MaiMaItem ma_items = 1;
+    repeated int32 winChairIds = 2;   // 赢家集合
+    repeated int32 loseChairIds = 3; // 输家集合
+}

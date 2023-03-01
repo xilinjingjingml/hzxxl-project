@@ -1,0 +1,16 @@
+info face="maima" size=82 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=83 base=54 scaleW=518 scaleH=82 pages=1 packed=0
+page id=0 file="maima.png"
+chars count=12
+char id=43 x=0 y=0 width=47 height=82 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=0 letter="+"
+char id=45 x=47 y=0 width=28 height=82 xoffset=0 yoffset=0 xadvance=28 page=0 chnl=0 letter="-"
+char id=48 x=75 y=0 width=47 height=82 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=0 letter="0"
+char id=49 x=122 y=0 width=26 height=82 xoffset=0 yoffset=0 xadvance=26 page=0 chnl=0 letter="1"
+char id=50 x=148 y=0 width=46 height=82 xoffset=0 yoffset=0 xadvance=46 page=0 chnl=0 letter="2"
+char id=51 x=194 y=0 width=48 height=82 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=0 letter="3"
+char id=52 x=242 y=0 width=48 height=82 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=0 letter="4"
+char id=53 x=290 y=0 width=46 height=82 xoffset=0 yoffset=0 xadvance=46 page=0 chnl=0 letter="5"
+char id=54 x=336 y=0 width=46 height=82 xoffset=0 yoffset=0 xadvance=46 page=0 chnl=0 letter="6"
+char id=55 x=382 y=0 width=44 height=82 xoffset=0 yoffset=0 xadvance=44 page=0 chnl=0 letter="7"
+char id=56 x=426 y=0 width=46 height=82 xoffset=0 yoffset=0 xadvance=46 page=0 chnl=0 letter="8"
+char id=57 x=472 y=0 width=46 height=82 xoffset=0 yoffset=0 xadvance=46 page=0 chnl=0 letter="9"

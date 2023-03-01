@@ -1,0 +1,24 @@
+{
+    "deviceOrientation": "landscape",
+	"openDataContext": "odc",
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 5000,
+        "uploadFile": 15000,
+        "downloadFile": 5000
+    },
+    "plugins": {
+        "cocos": {
+            "provider": "wx7095f7fa398a2f30",
+            "version": "2.4.7",
+            "path": "cocos"
+        }
+    },
+    "subpackages": [{
+        "name": "lobbyMain",
+        "root": "subpackages/lobbyMain"
+    },{
+        "name": "lobbyScript",
+        "root": "subpackages/lobbyScript"
+    }]
+}

@@ -1,0 +1,19 @@
+{
+  "package": "com.xunniao.tetris.vivominigame",
+  "name": "俄罗斯方块大作战",
+  "icon": "E:\\Developer\\clients\\git\\tetris-client\\ProjectRes\\oppo\\100.png",
+  "versionName": "1.0.1",
+  "versionCode": "101",
+  "minPlatformVersion": "1081",
+  "deviceOrientation": "portrait",
+  "logLevel": "log",
+  "npmPath": "",
+  "tinyPackageServer": "https://download.mcbeam.cc/tetris/vivo/com.xunniao.tetris.vivominigame/1.0.1",
+  "useDebugKey": true,
+  "privatePath": "",
+  "certificatePath": "",
+  "disabledMode": "disabled is-disabled",
+  "showNpmPath": false,
+  "packFirstScreenRes": false,
+  "separateEngineMode": false
+}

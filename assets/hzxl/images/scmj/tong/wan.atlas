@@ -1,0 +1,41 @@
+
+wan.png
+size: 703,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chi1/1g
+  rotate: false
+  xy: 2, 2
+  size: 263, 192
+  orig: 263, 192
+  offset: 0, 0
+  index: -1
+chi1/guangquan
+  rotate: false
+  xy: 579, 72
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+chi1/lanquan
+  rotate: true
+  xy: 267, 19
+  size: 175, 158
+  orig: 175, 158
+  offset: 0, 0
+  index: -1
+chi1/lizi
+  rotate: false
+  xy: 267, 5
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+tong
+  rotate: false
+  xy: 427, 41
+  size: 150, 153
+  orig: 150, 153
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+pipeidonghau_daojishi.png
+size: 835,828
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pipeizhong_2
+  rotate: false
+  xy: 1, 511
+  size: 315, 315
+  orig: 315, 315
+  offset: 0, 0
+  index: -1
+pipeizhong_1
+  rotate: false
+  xy: 594, 511
+  size: 239, 297
+  orig: 315, 315
+  offset: 39, 10
+  index: -1
+pipeizhong_3
+  rotate: false
+  xy: 318, 511
+  size: 274, 274
+  orig: 274, 274
+  offset: 0, 0
+  index: -1
+pipeizhong_g
+  rotate: false
+  xy: 1, 1
+  size: 508, 508
+  orig: 508, 508
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+hu.png
+size: 491,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chi1/1g
+  rotate: true
+  xy: 2, 2
+  size: 263, 192
+  orig: 263, 192
+  offset: 0, 0
+  index: -1
+chi1/guangquan
+  rotate: false
+  xy: 347, 3
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+chi1/lizi
+  rotate: false
+  xy: 471, 113
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+hongquan
+  rotate: false
+  xy: 196, 116
+  size: 149, 149
+  orig: 149, 149
+  offset: 0, 0
+  index: -1
+hu
+  rotate: true
+  xy: 347, 127
+  size: 138, 142
+  orig: 138, 142
+  offset: 0, 0
+  index: -1

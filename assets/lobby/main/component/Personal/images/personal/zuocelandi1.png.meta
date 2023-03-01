@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "62e369fc-fbb5-4f92-9728-2dacecfab23c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 60,
+  "height": 61,
+  "platformSettings": {},
+  "subMetas": {
+    "zuocelandi1": {
+      "ver": "1.0.4",
+      "uuid": "aa83f1b6-074d-4462-a8c7-59697948432c",
+      "rawTextureUuid": "62e369fc-fbb5-4f92-9728-2dacecfab23c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 61,
+      "rawWidth": 60,
+      "rawHeight": 61,
+      "borderTop": 24,
+      "borderBottom": 26,
+      "borderLeft": 26,
+      "borderRight": 24,
+      "subMetas": {}
+    }
+  }
+}

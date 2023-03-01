@@ -1,0 +1,32 @@
+{
+  "ver": "1.1.2",
+  "uuid": "908de223-4086-4423-b43e-2227b11a0c47",
+  "isBundle": true,
+  "bundleName": "lobbySub",
+  "priority": "1",
+  "compressionType": {
+    "wechatgame": "default",
+    "qgame": "merge_all_json",
+    "bytedance": "merge_all_json",
+    "quickgame": "merge_all_json"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false,
+    "qgame": false,
+    "bytedance": false,
+    "quickgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false,
+    "qgame": false,
+    "bytedance": true,
+    "quickgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": true,
+    "qgame": true,
+    "bytedance": true,
+    "quickgame": true
+  },
+  "subMetas": {}
+}

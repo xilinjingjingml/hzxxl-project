@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "9d4851d7-e922-44cb-8432-0570fdb9fc90",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 152,
+  "height": 43,
+  "platformSettings": {},
+  "subMetas": {
+    "riqixuanze_btn": {
+      "ver": "1.0.4",
+      "uuid": "01e39a64-b876-4cea-bce5-61ab0d5c41bd",
+      "rawTextureUuid": "9d4851d7-e922-44cb-8432-0570fdb9fc90",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 152,
+      "height": 43,
+      "rawWidth": 152,
+      "rawHeight": 43,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

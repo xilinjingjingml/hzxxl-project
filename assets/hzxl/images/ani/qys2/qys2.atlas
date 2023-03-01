@@ -1,0 +1,76 @@
+
+qys2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+13
+  rotate: false
+  xy: 2, 74
+  size: 294, 15
+  orig: 294, 15
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 2, 91
+  size: 371, 413
+  orig: 371, 413
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 375, 152
+  size: 349, 352
+  orig: 349, 352
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 726, 226
+  size: 278, 278
+  orig: 278, 278
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 669, 5
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+gq1
+  rotate: true
+  xy: 726, 125
+  size: 99, 221
+  orig: 99, 221
+  offset: 0, 0
+  index: -1
+qys
+  rotate: false
+  xy: 375, 39
+  size: 292, 111
+  orig: 292, 111
+  offset: 0, 0
+  index: -1
+x1
+  rotate: false
+  xy: 2, 2
+  size: 100, 70
+  orig: 100, 70
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 789, 21
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 893, 39
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1

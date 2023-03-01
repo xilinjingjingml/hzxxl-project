@@ -1,0 +1,103 @@
+
+zmtx2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 711, 22
+  size: 668, 135
+  orig: 668, 135
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 366, 79
+  size: 343, 346
+  orig: 343, 346
+  offset: 0, 0
+  index: -1
+2g
+  rotate: false
+  xy: 2, 2
+  size: 362, 423
+  orig: 362, 423
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 518, 614
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 691, 692
+  size: 311, 312
+  orig: 311, 312
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 366, 39
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 427
+  size: 514, 330
+  orig: 514, 330
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 898, 333
+  size: 357, 79
+  orig: 357, 79
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 848, 194
+  size: 496, 48
+  orig: 496, 48
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 2, 759
+  size: 687, 244
+  orig: 687, 244
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 848, 156
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+
+zmtx22.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1g
+  rotate: false
+  xy: 348, 4
+  size: 342, 342
+  orig: 342, 342
+  offset: 0, 0
+  index: -1
+3g
+  rotate: false
+  xy: 2, 2
+  size: 344, 344
+  orig: 344, 344
+  offset: 0, 0
+  index: -1

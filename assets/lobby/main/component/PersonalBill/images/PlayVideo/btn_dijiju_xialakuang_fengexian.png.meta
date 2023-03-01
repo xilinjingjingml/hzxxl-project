@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "35b8bece-bde9-4dc1-8f15-4b385165a87b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 85,
+  "height": 1,
+  "platformSettings": {},
+  "subMetas": {
+    "btn_dijiju_xialakuang_fengexian": {
+      "ver": "1.0.4",
+      "uuid": "a16c44a0-0ee7-4937-9da3-c7a1f5bf7ed8",
+      "rawTextureUuid": "35b8bece-bde9-4dc1-8f15-4b385165a87b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 85,
+      "height": 1,
+      "rawWidth": 85,
+      "rawHeight": 1,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

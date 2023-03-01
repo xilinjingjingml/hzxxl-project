@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "change_score",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": [
+            0.0016460905349794618,
+            0.5829218106995885,
+            0.4170781893004115,
+            0.9932098765432098
+          ]
+        },
+        {
+          "frame": 1,
+          "value": 100
+        },
+        {
+          "frame": 1.5,
+          "value": 100
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 1.5,
+      "func": "removeFromParent",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "28a7c6d2-7274-45f8-ba58-4b14a98dc49b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 263,
+  "height": 143,
+  "platformSettings": {},
+  "subMetas": {
+    "zimo_4": {
+      "ver": "1.0.4",
+      "uuid": "7731af43-2c92-466e-bc24-9afed63accc9",
+      "rawTextureUuid": "28a7c6d2-7274-45f8-ba58-4b14a98dc49b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 263,
+      "height": 143,
+      "rawWidth": 263,
+      "rawHeight": 143,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "__type__": "cc.Material",
+  "_name": "GaussianBlur",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "918481fa-cc2f-43c6-9385-68279e0e5656"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+
+quxiao1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4G
+  rotate: false
+  xy: 144, 90
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 70
+  size: 140, 144
+  orig: 140, 144
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 2
+  size: 103, 66
+  orig: 103, 66
+  offset: 0, 0
+  index: -1

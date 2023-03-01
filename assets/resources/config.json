@@ -1,0 +1,24 @@
+{
+  "platId": 8,
+  "pn": "com.metagame.xlmahjong",
+  "gameId": "09965902-5d1e-4632-ac38-8d4551dc1142",
+  "gameName": "红中麻将",
+  "env": 0,
+  "orientation": 0,
+  "wxAPPID": "wxc2f9fd5496d0340c",
+  "wxMIDASID": "",
+  "unPreload": true,
+  "mainItemId": 10005,
+  "vivo-qgame": {
+    "pn": "XXXXXXXXXXXXXXXX",
+    "gameName": "XXXXXXXXXXXXXXXX"
+  },
+  "bootConfig": {
+    "mainGameName": "红中麻将",
+    "mainGameBundle": "hzxl_subpackage"
+  },
+  "2345-minigame": {
+    "gameCode": "XXXXXXXXXXXXXXXX"
+  },
+  "onlineParamSyncWait": true
+}

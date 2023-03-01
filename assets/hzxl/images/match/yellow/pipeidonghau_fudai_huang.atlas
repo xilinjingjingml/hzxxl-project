@@ -1,0 +1,55 @@
+
+pipeidonghau_fudai_huang.png
+size: 585,453
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fudai_zi
+  rotate: false
+  xy: 1, 1
+  size: 204, 387
+  orig: 204, 387
+  offset: 0, 0
+  index: -1
+yun_2
+  rotate: false
+  xy: 402, 1
+  size: 181, 128
+  orig: 181, 128
+  offset: 0, 0
+  index: -1
+yun_3
+  rotate: false
+  xy: 207, 268
+  size: 164, 134
+  orig: 164, 134
+  offset: 0, 0
+  index: -1
+yun_4
+  rotate: false
+  xy: 1, 390
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+yun_7
+  rotate: false
+  xy: 67, 390
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+yun_5
+  rotate: false
+  xy: 207, 137
+  size: 197, 129
+  orig: 197, 129
+  offset: 0, 0
+  index: -1
+yun_6
+  rotate: false
+  xy: 207, 1
+  size: 193, 134
+  orig: 193, 134
+  offset: 0, 0
+  index: -1

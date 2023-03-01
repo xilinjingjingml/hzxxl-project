@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "99282375-7831-4f32-b87f-271565b47da3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 20,
+  "height": 14,
+  "platformSettings": {},
+  "subMetas": {
+    "btn_dijiju_shanglajian_2": {
+      "ver": "1.0.4",
+      "uuid": "ffc390e3-8954-478f-a720-7c2180753f71",
+      "rawTextureUuid": "99282375-7831-4f32-b87f-271565b47da3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 20,
+      "height": 14,
+      "rawWidth": 20,
+      "rawHeight": 14,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

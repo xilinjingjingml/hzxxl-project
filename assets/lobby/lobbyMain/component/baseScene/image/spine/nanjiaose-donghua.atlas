@@ -1,0 +1,69 @@
+
+nanjiaose-donghua.png
+size: 511,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+男角色动画/下身
+  rotate: false
+  xy: 174, 728
+  size: 250, 198
+  orig: 250, 198
+  offset: 0, 0
+  index: -1
+男角色动画/上身
+  rotate: false
+  xy: 1, 1
+  size: 315, 725
+  orig: 315, 725
+  offset: 0, 0
+  index: -1
+男角色动画/头
+  rotate: false
+  xy: 318, 556
+  size: 155, 170
+  orig: 155, 170
+  offset: 0, 0
+  index: -1
+男角色动画/眼皮
+  rotate: false
+  xy: 174, 970
+  size: 70, 19
+  orig: 70, 19
+  offset: 0, 0
+  index: -1
+男角色动画/头发
+  rotate: false
+  xy: 426, 911
+  size: 34, 57
+  orig: 34, 57
+  offset: 0, 0
+  index: -1
+男角色动画/左大臂
+  rotate: false
+  xy: 318, 291
+  size: 148, 263
+  orig: 148, 263
+  offset: 0, 0
+  index: -1
+男角色动画/左小臂
+  rotate: false
+  xy: 426, 728
+  size: 83, 181
+  orig: 83, 181
+  offset: 0, 0
+  index: -1
+男角色动画/右大臂
+  rotate: false
+  xy: 318, 1
+  size: 157, 288
+  orig: 157, 288
+  offset: 0, 0
+  index: -1
+男角色动画/右小臂
+  rotate: false
+  xy: 1, 728
+  size: 171, 291
+  orig: 171, 291
+  offset: 0, 0
+  index: -1

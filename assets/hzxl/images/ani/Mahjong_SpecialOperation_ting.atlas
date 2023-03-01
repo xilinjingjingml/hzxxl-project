@@ -1,0 +1,18 @@
+Mahjong_SpecialOperation_ting.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mj_ting_text
+  rotate: false
+  xy: 310, 153
+  size: 123, 144
+  orig: 123, 144
+  offset: 0, 0
+  index: -1
+mj_ting_text_1
+  rotate: true
+  xy: 2, 2
+  size: 295, 306
+  orig: 295, 306
+  offset: 0, 0
+  index: -1

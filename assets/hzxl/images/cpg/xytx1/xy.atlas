@@ -1,0 +1,62 @@
+
+xy.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ly1
+  rotate: false
+  xy: 232, 150
+  size: 52, 68
+  orig: 52, 68
+  offset: 0, 0
+  index: -1
+sh1
+  rotate: false
+  xy: 2, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+sw1
+  rotate: true
+  xy: 232, 231
+  size: 21, 269
+  orig: 21, 269
+  offset: 0, 0
+  index: -1
+x1
+  rotate: false
+  xy: 232, 116
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 232, 78
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 286, 180
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+y1
+  rotate: true
+  xy: 232, 220
+  size: 9, 231
+  orig: 9, 231
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 2, 24
+  size: 228, 228
+  orig: 228, 228
+  offset: 0, 0
+  index: -1

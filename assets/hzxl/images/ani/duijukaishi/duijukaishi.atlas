@@ -1,0 +1,74 @@
+
+duijukaishi.png
+size: 869,961
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tex_1962
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+djks_lan_y
+  rotate: false
+  xy: 2, 610
+  size: 739, 349
+  orig: 739, 349
+  offset: 0, 0
+  index: -1
+djks_lan_z
+  rotate: false
+  xy: 2, 260
+  size: 739, 348
+  orig: 739, 348
+  offset: 0, 0
+  index: -1
+djks_zi
+  rotate: true
+  xy: 778, 624
+  size: 335, 89
+  orig: 335, 89
+  offset: 0, 0
+  index: -1
+guangtiao
+  rotate: true
+  xy: 743, 409
+  size: 550, 33
+  orig: 550, 33
+  offset: 0, 0
+  index: -1
+
+duijukaishi2.png
+size: 743,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+djks_huang_x
+  rotate: false
+  xy: 2, 351
+  size: 739, 347
+  orig: 739, 347
+  offset: 0, 0
+  index: -1
+djks_lan_s
+  rotate: false
+  xy: 2, 2
+  size: 739, 347
+  orig: 739, 347
+  offset: 0, 0
+  index: -1
+
+duijukaishi3.png
+size: 354,354
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangquan333
+  rotate: false
+  xy: 2, 2
+  size: 350, 350
+  orig: 350, 350
+  offset: 0, 0
+  index: -1

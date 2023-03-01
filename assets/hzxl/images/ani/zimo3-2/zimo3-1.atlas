@@ -1,0 +1,55 @@
+
+zimo3-1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 325
+  size: 350, 167
+  orig: 350, 167
+  offset: 0, 0
+  index: -1
+1g
+  rotate: true
+  xy: 283, 60
+  size: 263, 192
+  orig: 263, 192
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 144
+  size: 279, 179
+  orig: 279, 179
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 2, 2
+  size: 177, 140
+  orig: 177, 140
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 354, 416
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 354, 454
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 181, 104
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

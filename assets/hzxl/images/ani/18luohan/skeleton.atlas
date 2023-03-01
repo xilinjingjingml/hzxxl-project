@@ -1,0 +1,124 @@
+
+skeleton.png
+size: 1022,971
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+18luohan
+  rotate: false
+  xy: 86, 462
+  size: 319, 85
+  orig: 319, 85
+  offset: 0, 0
+  index: -1
+gd_guangdian
+  rotate: false
+  xy: 978, 685
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+gd_shizixing
+  rotate: true
+  xy: 2, 451
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 549
+  size: 801, 420
+  orig: 801, 420
+  offset: 0, 0
+  index: -1
+guangquan_1
+  rotate: false
+  xy: 413, 150
+  size: 383, 397
+  orig: 383, 397
+  offset: 0, 0
+  index: -1
+guangquan_3
+  rotate: false
+  xy: 2, 6
+  size: 409, 427
+  orig: 409, 427
+  offset: 0, 0
+  index: -1
+lh_1_an
+  rotate: true
+  xy: 705, 10
+  size: 138, 282
+  orig: 138, 282
+  offset: 0, 0
+  index: -1
+lh_1_liang
+  rotate: true
+  xy: 413, 2
+  size: 146, 290
+  orig: 146, 290
+  offset: 0, 0
+  index: -1
+lh_2_an
+  rotate: true
+  xy: 805, 705
+  size: 264, 214
+  orig: 264, 214
+  offset: 0, 0
+  index: -1
+lh_2_liang
+  rotate: true
+  xy: 798, 161
+  size: 272, 222
+  orig: 272, 222
+  offset: 0, 0
+  index: -1
+lh_cefei
+  rotate: true
+  xy: 805, 435
+  size: 268, 171
+  orig: 268, 171
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 816,774
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tex_1962
+  rotate: false
+  xy: 535, 269
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+guangquan_2
+  rotate: false
+  xy: 2, 241
+  size: 531, 531
+  orig: 531, 531
+  offset: 0, 0
+  index: -1
+lh_3_an
+  rotate: false
+  xy: 374, 2
+  size: 270, 237
+  orig: 270, 237
+  offset: 0, 0
+  index: -1
+lh_3_liang
+  rotate: false
+  xy: 535, 527
+  size: 279, 245
+  orig: 279, 245
+  offset: 0, 0
+  index: -1
+xxx1
+  rotate: false
+  xy: 2, 2
+  size: 370, 237
+  orig: 370, 237
+  offset: 0, 0
+  index: -1

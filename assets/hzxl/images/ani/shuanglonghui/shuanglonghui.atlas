@@ -1,0 +1,166 @@
+
+shuanglonghui.png
+size: 1008,1022
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gd_shizixing
+  rotate: true
+  xy: 601, 37
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+guangqiu
+  rotate: false
+  xy: 685, 92
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+gy001
+  rotate: false
+  xy: 2, 444
+  size: 512, 576
+  orig: 512, 576
+  offset: 0, 0
+  index: -1
+huxu
+  rotate: true
+  xy: 601, 7
+  size: 28, 87
+  orig: 28, 87
+  offset: 0, 0
+  index: -1
+long
+  rotate: true
+  xy: 516, 728
+  size: 292, 328
+  orig: 292, 328
+  offset: 0, 0
+  index: -1
+shiquan
+  rotate: true
+  xy: 846, 760
+  size: 260, 160
+  orig: 260, 160
+  offset: 0, 0
+  index: -1
+yan345
+  rotate: false
+  xy: 2, 135
+  size: 925, 307
+  orig: 925, 307
+  offset: 0, 0
+  index: -1
+zi
+  rotate: false
+  xy: 2, 2
+  size: 597, 131
+  orig: 597, 131
+  offset: 0, 0
+  index: -1
+zjg
+  rotate: false
+  xy: 516, 463
+  size: 300, 263
+  orig: 300, 263
+  offset: 0, 0
+  index: -1
+
+shuanglonghui2.png
+size: 1022,1016
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sg_00001
+  rotate: false
+  xy: 2, 758
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00002
+  rotate: false
+  xy: 2, 500
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00003
+  rotate: false
+  xy: 2, 242
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00004
+  rotate: true
+  xy: 254, 764
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00005
+  rotate: true
+  xy: 512, 764
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00006
+  rotate: false
+  xy: 770, 758
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00007
+  rotate: true
+  xy: 254, 512
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00008
+  rotate: true
+  xy: 512, 512
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00009
+  rotate: false
+  xy: 770, 500
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00010
+  rotate: true
+  xy: 254, 260
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00011
+  rotate: true
+  xy: 512, 260
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00012
+  rotate: false
+  xy: 770, 242
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1
+sg_00013
+  rotate: false
+  xy: 254, 2
+  size: 250, 256
+  orig: 250, 256
+  offset: 0, 0
+  index: -1

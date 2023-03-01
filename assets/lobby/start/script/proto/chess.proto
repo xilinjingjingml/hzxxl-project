@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package chess;
+
+// 准备
+message ReadyReq {
+  bool is_ready = 1;
+}
+
+message ReadyRsp {
+  string err = 1;
+}
+
+message ReadyNot {
+  string uid = 1;
+  bool is_ready = 2;
+}

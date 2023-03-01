@@ -1,0 +1,27 @@
+
+meigui3.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 2, 2
+  size: 101, 111
+  orig: 101, 111
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 134, 208
+  size: 21, 37
+  orig: 21, 37
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 115
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
